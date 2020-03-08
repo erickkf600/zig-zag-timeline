@@ -1,0 +1,13 @@
+.menu{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    li{
+        margin: auto 15px auto 15px;
+        color: #ffffff;
+        cursor: pointer;
+        &:hover{
+            color: #acacac
+        }
+    }
+}

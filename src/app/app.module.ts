@@ -3,10 +3,14 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { SvgTestComponent } from './pages/svg-test/svg-test.component';
+import { CssTestComponent } from './pages/css-test/css-test.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SvgTestComponent,
+    CssTestComponent
   ],
   imports: [
     BrowserModule,
